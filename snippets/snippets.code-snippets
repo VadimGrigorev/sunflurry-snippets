@@ -1,0 +1,56 @@
+{
+    "If": {
+      "prefix": "if",
+      "body": [
+        "If $1 Then",
+        " $2",
+        "EndIf;"
+      ],
+      "description": "if construction"
+    },
+    "For": {
+      "prefix": "for",
+      "body": [
+        "For $1 Do",
+        " $2",
+        "EndDo;"
+      ],
+      "description": "for construction"
+    },
+    "While": {
+      "prefix": "while",
+      "body": [
+        "While $1 Do",
+        " $2",
+        "EndDo;"
+      ],
+      "description": "while construction"
+    },
+    "Function": {
+      "prefix": "func",
+      "body": [
+        "Function $1($2)",
+        " $3",
+        "EndFunction;"
+      ],
+      "description": "function construction"
+    },
+    "Message": {
+      "prefix": "m",
+      "body": "Message($1);",
+      "description": "message function"
+    },
+    "DebugBreak": {
+      "prefix": "dk",
+      "body": "debugbreak;",
+      "description": "debugbreak function"
+    },
+    "DebugBreak and Exit": {
+      "prefix": "dke",
+      "body": [
+        "DebugBreak;",
+        "Exit;"
+      ],
+      "description": "debugbreak and exit functions"
+    }
+  }
